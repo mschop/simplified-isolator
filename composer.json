@@ -1,0 +1,33 @@
+{
+    "name": "mschop/simplified-isolator",
+    "description": "Simplified isolator without dynamic code generation as replacement for icecave/isolator.",
+    "keywords": [
+        "test",
+        "phpunit",
+        "unit",
+        "mock",
+        "fake",
+        "double",
+        "stub"
+    ],
+    "homepage": "https://github.com/mschop/simplified-isolator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Schophaus",
+            "email": "mschopdev@gmail.com",
+            "homepage": "https://mschop.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimplifiedIsolator\\": "src"
+        }
+    }
+}
